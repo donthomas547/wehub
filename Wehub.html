@@ -120,7 +120,7 @@
 
 
     <!-- Navbar Start -->
-    <nav style="background-color: #338efe; color: black;"
+    <nav style="background-color: #3B7BB7; color: rgb(255, 255, 255);"
         class="navbar navbar-expand-lg navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="#" class="navbar-brand ms-3">
             <!-- Replace 'path/to/your/logo.png' with the actual path to your logo image -->
@@ -133,7 +133,7 @@
 
         <style>
             .navbar-nav a {
-                color: black !important;
+                color: rgb(255, 255, 255) !important;
                 font-weight: 400;
                 font-size: medium;
             }
@@ -177,9 +177,9 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-dark pe-3">About Us</h6>
-                        <h1 class="display-6 mb-4"> <span style="color: #5eb2fa;" class="">SENSE BRIDGE ACADEMY </span></h1>
-                        <p style="font-size: 14px;">WE HUB, “locate the future through creativity”. World Eighth Hub commenced it’s functioning since 18th November 2018, is
+                        <h2 class=" bg-white text-start text-dark pe-3">About Us</h2>
+                        <h1 class="display-6 mb-2"> <span style="color: #3B7BB7;" class="">Unlock the Talent </span></h1>
+                        <p style="font-size: 12px;">WE HUB, “locate the future through creativity”. World Eighth Hub commenced it’s functioning since 18th November 2018, is
                         not only an advertising company but also a manufacturing centre for innovative ideas. As the beginning venture we
                         produced a musical album called " Ee Vakamara Chuvattil ",the best ever song still continuing its victorious journey by
                         conquering the minds of about 35 lakh people. Followed by it we could successfully release short films such as
@@ -213,12 +213,12 @@
 
 
 
-<div class="container mt-5">
+<div class="container mt-2">
     <div class="row">
         <!-- Problem-solving skill -->
         <div class="col-md-6">
-            <h5 style="color: rgb(26,94,139);">Our Mission</h5>
-            <p style="font-size: 16px;">The aim of Sense Bridge Academy is to act as a bridge
+            <h5 class=" mb-4" style="color: rgb(26,94,139);">Our Mission</h5>
+            <p style="font-size: 16px; text-align: justify;">The aim of Sense Bridge Academy is to act as a bridge
                 by sensing the limitations faced by the people while updating
                 their passion, skills and talents. Sense Bridge Academy mainly focuses on four important sectors such as
                 education,
@@ -226,13 +226,14 @@
                 namely
                 students, families, professionals and esteemed personalities. The first step put forward by Sense Bridge
                 Academy was
-                nothing but to make awareness among people..</p>
+                nothing but to make awareness among people.</p>
         </div>
 
         <!-- Communication skill -->
         <div class="col-md-6">
-            <h5 style="color: rgb(26,94,139);">Our Vision</h5>
-            <p style="font-size: 16px;">Our objective is to establish ourselves as a leading authority in education and
+            <h5 class=" mb-4" style="color: rgb(26,94,139);">Our Vision</h5>
+            <p style="font-size: 16px; text-align: justify;">Our objective is to establish ourselves as a leading
+                authority in education and
                 professional development, recognized
                 for
                 our commitment to academic excellence, personalized care, and holistic growth. In our ideal society,
@@ -241,10 +242,11 @@
                 freedom to realize their potential and significantly impact society.</p>
         </div>
     </div>
-
-
 </div>
+
 <div class="container mt-5">
+
+
     <div class="row">
         <!-- Problem-solving skill -->
         <div class="col-md-6">
@@ -275,14 +277,18 @@
             <p>The ability to inspire and guide others towards a common goal. Think of it as steering a ship, navigating
                 through rough waters and keeping everyone on board motivated.</p>
         </div>
+    </div>
 
+    <div class="row mt-5">
+        <!-- Career Oriented Training -->
         <div class="col-md-6">
             <h5 style="color: rgb(26,94,139);">Career Oriented Training</h5>
-            <p>Uncover hidden talents and discover fulfilling careers through self-assessment,skill building workshops,
-                and expert Guidance</p>
+            <p>Uncover hidden talents and discover fulfilling careers through self-assessment, skill-building workshops,
+                and expert guidance.</p>
         </div>
     </div>
 </div>
+
 <br />
 <br />
 </div>
@@ -294,21 +300,28 @@
 
     .course {
         margin-bottom: 20px;
-        padding: 15px;
+        padding: 20px;
         border: 1px solid #ddd;
-        border-radius: 5px;
-        height: 350px;
-        /* Adjust the height as needed */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        margin-right: 10px;
+        /* Added gap between boxes */
     }
 
     h2 {
         color: #1C3F49;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        font-size: 28px;
     }
 
     h3 {
         color: #1C3F49;
+        font-size: 24px;
+        margin-bottom: 15px;
     }
 
     ul {
@@ -317,21 +330,54 @@
     }
 
     li {
-        margin-bottom: 5px;
-        font-size: 13px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        width: calc(50% - 5px);
+        /* Adjusted width to account for gap */
+        margin-bottom: 20px;
+        /* Added margin to bottom for vertical gap */
+    }
+
+    @media (max-width: 767px) {
+        .col-md-6 {
+            width: 100%;
+        }
     }
 </style>
 
+<div class="container">
+    <section class="courses-offered">
 
-    <div class="container">
-        <section class="courses-offered row">
-            <div class="col-12">
-                <h2>Courses Offered</h2>
-            </div>
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6">Courses Offered</h1>
+         
+            <br />
+            <p class=" mb-5" style="max-width: 900px; color: rgb(26,94,139);">
+                Certainly, here's a briefing for Sense Bridge Academy's services in education, counseling,
+                training, and other courses
+            </p>
+        
+        </div>
 
-            <div class="col-md-3">
+        <div class="row">
+            <div class="col-md-6">
                 <div class="course">
-                    <h3>Courses</h3>
+                    <h3 style="color: #3B7BB7;">Courses</h3>
                     <ul>
                         <li>BA English</li>
                         <li>B.Com</li>
@@ -348,9 +394,9 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="course">
-                    <h3>Training</h3>
+                    <h3 style="color: #3B7BB7;">Training</h3>
                     <ul>
                         <li>Career Oriented & Management Training</li>
                         <li>Personality Development Training</li>
@@ -362,9 +408,9 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="course">
-                    <h3>Counselling</h3>
+                    <h3 style="color: #3B7BB7;">Counselling</h3>
                     <ul>
                         <li>Mental Health support counselling</li>
                         <li>Academic and Career Counselling</li>
@@ -374,9 +420,9 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="course">
-                    <h5>Human Behaviour Emotional Wellness</h5>
+                    <h3 style="color: #3B7BB7;">Human Behaviour Emotional Wellness</h3>
                     <ul>
                         <li>MPTTC</li>
                         <li>B.Ed</li>
@@ -384,9 +430,9 @@
                     </ul>
                 </div>
             </div>
-
-        </section>
-    </div>
+        </div>
+    </section>
+</div>
 
 
     <!-- About End -->
